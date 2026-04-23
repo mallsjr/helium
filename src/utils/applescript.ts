@@ -2,7 +2,7 @@ import { runAppleScript } from "@raycast/utils";
 import { open, getPreferenceValues } from "@raycast/api";
 
 /**
- * This function escapes tab url 
+ * This function escapes tab url
  */
 function escapeForAppleScript(value: string): string {
   return value.replace(/\\/g, "\\\\").replace(/"/g, '\\"');
